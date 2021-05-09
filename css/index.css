@@ -30,7 +30,7 @@ a {
     font-size: 12px;
 }
 
-.common_product .content span {
+.common_product .content .price {
     color: red;
 }
 
@@ -71,9 +71,10 @@ a {
     line-height: 68px;
     text-align: center;
     position: relative;
+    border-bottom: 2px solid grey;
 }
 
-.header .header_c h1 {
+.header .header_c .logo {
     height: 68px;
     width: 140px;
     line-height: 68px;
@@ -81,7 +82,7 @@ a {
     float: left;
 }
 
-.header .header_c h1 a {
+.header .header_c .logo a {
     display: block;
     text-indent: -100em;
     overflow: hidden;
@@ -121,6 +122,7 @@ a {
 
 .header .header_c .all_pro .product {
     width: 100%;
+    background: #fff;
     position: absolute;
     top: 68px;
     left: 0;
@@ -153,8 +155,43 @@ a {
     margin-left: 45px;
 }
 
-.header .header_c .all_pro .product .pro_inner .inn_detail li {
+.header .header_c .all_pro .product .pro_inner .inn_detail .common_product {
     width: 248px;
     height: 340px;
     float: left;
+}
+
+.header .header_c .header_nav ul li a {
+    display: block;
+    float: left;
+    padding: 0 28px;
+}
+
+.header .header_c .header_nav ul li a:hover {
+    background-color: #e6d6c6;;
+}
+
+.header .header_c .search {
+    width: 154px;
+    height: 68px;
+    float: left;
+    background: url(../img/img00.png) no-repeat center right
+}
+
+.header .header_c .login {
+    float: right;
+}
+
+.header .header_c .login a {
+    padding: 0 5px;
+}
+
+.header .header_c .login span {
+    padding: 0 5px;
+}
+
+.header .header_c .login .gwc {
+    display: inline-block;
+    padding-left: 26px;
+    background: url(../img/0.png) no-repeat center left;
 }
