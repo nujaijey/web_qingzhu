@@ -28,6 +28,7 @@ a {
 .common_product .content {
     text-align: center;
     font-size: 12px;
+    font-weight: bold;
 }
 
 .common_product .content .price {
@@ -64,7 +65,26 @@ a {
     border-radius: 4px;
 }
 
-/* header部分 */
+.common_title {
+    text-align: center;
+    padding: 45px 0 18px;
+}
+
+.common_title h3 {
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+.common_title p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+}
+
+
+/* header部分开始 */
 .header {
     height: 68px;
     width: 100%;
@@ -72,6 +92,7 @@ a {
     text-align: center;
     position: relative;
     border-bottom: 2px solid grey;
+    z-index: 1;
 }
 
 .header .header_c .logo {
@@ -239,4 +260,87 @@ a {
     color: #fff;
     font-size: 16px;
     line-height: 44px;
+}
+
+/* banner部分开始 */
+.banner {
+    height: 444px;
+    background-color: blueviolet;
+    position: relative;
+}
+
+.banner .banner_c {
+    position: relative;
+}
+
+.banner ul li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.banner ul li.cur {
+    display: block;
+}
+
+.banner ul li a img {
+    width: 100%;
+}
+
+.banner .btns {
+    width: 90px;
+    height: 4px;
+    position: absolute;
+    left: 50%;
+    margin-left: -45px;
+    bottom: 20px;
+}
+
+.banner .btns ol li {
+    list-style: none;
+    width: 20px;
+    height: 4px;
+    background-color: #fff;
+    margin: 5px;
+    float: left;
+    cursor: pointer;
+}
+
+.banner .btns ol li.cur {
+    background-color: #c78a49;
+}
+
+/* 推荐新品内容 */
+.new_pro .pro_detail {
+    height: 365px;
+    position: relative;
+}
+
+.new_pro .pro_detail ul li {
+    float: left;
+    width: 275px;
+    height: 365px;
+    margin: 0 5px;
+}
+
+.new_pro .pro_detail ul li.common_product .pic {
+    width: 100%;
+}
+
+.new_pro .pro_detail .btns a {
+    position: absolute;
+    top: 45%;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: serif;
+    color:#C3C3C3;
+}
+
+.new_pro .pro_detail .btns a.left {
+    left: -30px;
+}
+
+.new_pro .pro_detail .btns a.right {
+    right: -30px;
 }
