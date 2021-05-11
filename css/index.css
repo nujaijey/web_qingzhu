@@ -346,6 +346,11 @@ a {
 }
 
 /* 专题活动部分 */
+.special .content {
+    /* 清除浮动：父级的高度随子级容器及子级内容的高度而自适应 */
+    overflow: hidden;
+}
+
 .special .content .pic {
     position: relative;
 }
@@ -381,7 +386,7 @@ a {
 
 .special .content .left {
     float: left;
-    height: 680px;
+    width: 680px;
     height: 380px;
     overflow: hidden;
 }
@@ -401,4 +406,31 @@ a {
     height: 185px;
     overflow: hidden;
     margin-top: 5px;
+}
+
+.qingzhu .qz_content .qz_common {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.qingzhu .qz_content .qz_common ul li.common_product {
+    width: 220px;
+    height: 310px;
+    float: left;
+    margin-right: 10px;
+    padding-top: 0;
+}
+
+
+.qingzhu .qz_content .qz_common ul li.last {
+    margin-right: 0;
+}
+
+.qingzhu .qz_content .qz_common ul li.common_product .pic {
+    width: 100%;
+    margin: 0;
+}
+
+.qingzhu .qz_content .qz_common ul li.common_product .content {
+    margin-top: 20px;
 }
