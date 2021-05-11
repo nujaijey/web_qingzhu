@@ -84,7 +84,7 @@ a {
 }
 
 
-/* header部分开始 */
+/* header部分 */
 .header {
     height: 68px;
     width: 100%;
@@ -262,9 +262,9 @@ a {
     line-height: 44px;
 }
 
-/* banner部分开始 */
+/* banner部分 */
 .banner {
-    height: 444px;
+    height: 440px;
     background-color: blueviolet;
     position: relative;
 }
@@ -311,7 +311,7 @@ a {
     background-color: #c78a49;
 }
 
-/* 推荐新品内容 */
+/* 推荐新品部分 */
 .new_pro .pro_detail {
     height: 365px;
     position: relative;
@@ -343,4 +343,62 @@ a {
 
 .new_pro .pro_detail .btns a.right {
     right: -30px;
+}
+
+/* 专题活动部分 */
+.special .content .pic {
+    position: relative;
+}
+
+.special .content .pic img {
+    /* CSS属性：给盒子设置运动中的过渡效果 */
+    transition: all 0.4s ease 0s;
+}
+
+.special .content .pic:hover img {
+    /* CSS3属性：放大元素 */
+    transform: scale(1.15);
+    transition: all 0.4s ease 0s;
+}
+
+.special .content .pic span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 3px solid #fff;
+    transition: all 0.4s ease 0s;
+}
+
+.special .content .pic:hover span {
+    top: 8px;
+    right: 8px;
+    bottom: 8px;
+    left: 8px;
+    transition: all 0.4s ease 0s;
+}
+
+.special .content .left {
+    float: left;
+    height: 680px;
+    height: 380px;
+    overflow: hidden;
+}
+
+.special .content .right {
+    float: right;
+}
+
+.special .content .right .r_top {
+    width: 450px;
+    height: 185px;
+    overflow: hidden;
+}
+
+.special .content .right .r_bottom {
+    width: 450px;
+    height: 185px;
+    overflow: hidden;
+    margin-top: 5px;
 }
