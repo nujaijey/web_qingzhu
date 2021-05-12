@@ -353,6 +353,8 @@ a {
 
 .special .content .pic {
     position: relative;
+    /* 溢出隐藏 */
+    overflow: hidden;
 }
 
 .special .content .pic img {
@@ -388,7 +390,6 @@ a {
     float: left;
     width: 680px;
     height: 380px;
-    overflow: hidden;
 }
 
 .special .content .right {
@@ -398,16 +399,15 @@ a {
 .special .content .right .r_top {
     width: 450px;
     height: 185px;
-    overflow: hidden;
 }
 
 .special .content .right .r_bottom {
     width: 450px;
     height: 185px;
-    overflow: hidden;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
+/* 青竹良品部分 */
 .qingzhu .qz_content .qz_common {
     overflow: hidden;
     margin-bottom: 10px;
@@ -433,4 +433,66 @@ a {
 
 .qingzhu .qz_content .qz_common ul li.common_product .content {
     margin-top: 20px;
+}
+
+/* 全球大牌部分 */
+.global .glo_content .glo_top {
+    overflow: hidden;
+}
+
+.global .glo_content .glo_top .glo1 {
+    width: 504px;
+    height: 358px;
+    float: left;
+    margin-right: 13px;
+}
+
+.global .glo_content .glo_top .glo_common {
+    width: 410px;
+    height: 172px;
+    float: left;
+}
+
+.global .glo_content .glo_top .glo2 {
+    margin-bottom: 15px;
+}
+
+.global .glo_content .glo_top .glo4 {
+    float: right;
+    width: 197px;
+    height: 358px;
+}
+
+.global .glo_content .glo_top .pic {
+    position: relative;
+    overflow: hidden;
+}
+
+.global .glo_content .glo_top .pic img {
+    /* CSS属性：给盒子设置运动中的过渡效果 */
+    transition: all 0.4s ease 0s;
+}
+
+.global .glo_content .glo_top .pic:hover img {
+    /* CSS3属性：放大元素 */
+    transform: scale(1.15);
+    transition: all 0.4s ease 0s;
+}
+
+.global .glo_content .glo_top .pic span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 3px solid #fff;
+    transition: all 0.4s ease 0s;
+}
+
+.global .glo_content .glo_top .pic:hover span {
+    top: 8px;
+    right: 8px;
+    bottom: 8px;
+    left: 8px;
+    transition: all 0.4s ease 0s;
 }
