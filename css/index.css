@@ -496,3 +496,42 @@ a {
     left: 8px;
     transition: all 0.4s ease 0s;
 }
+
+.global .glo_content .glo_bottom {
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: center;
+    color: #5d5d5d;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.global .glo_content .glo_bottom .glo_chara {
+    float: left;
+    width: 210px;
+    margin-right: 22px;
+}
+
+.global .glo_content .glo_bottom .last {
+    margin-right: 0;
+}
+
+.global .glo_content .glo_bottom .glo_chara a {
+    display: block;
+    height: 90px;
+    border: 1px solid #e8e8e8;
+    position: relative;
+    overflow: hidden;
+}
+
+.global .glo_content .glo_bottom .glo_chara a img {
+    position: absolute;
+    left: 50%;
+    margin-left: -90px;
+    transition: all 0.4s ease 0s;
+}
+
+.global .glo_content .glo_bottom .glo_chara a:hover img {
+    left: 35%;
+    transition: all 0.4s ease 0s;
+}
