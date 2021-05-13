@@ -535,3 +535,82 @@ a {
     left: 35%;
     transition: all 0.4s ease 0s;
 }
+
+/* 良品体验部分 */
+.lpty {
+    height: 600px;
+    margin-top: 20px;
+    background: #f4f0ea;
+    overflow: hidden;
+}
+
+.lpty .lp_inner .lp_content ul li.lp_item {
+    width: 276px;
+    height: 432px;
+    margin-right: 10px;
+    float: left;
+    background: #fff;
+    position: relative;
+}
+
+.lpty .lp_inner .lp_content ul li.last {
+    margin-right: 0;
+}
+
+.lpty .lp_inner .lp_content ul li.lp_item .lp_top {
+    overflow: hidden;
+}
+
+.lpty .lp_inner .lp_content ul li.lp_item .lp_top:hover img {
+    transform: scale(1.1);
+    transition: all 0.4s ease 0s;
+}
+
+.lpty .lp_inner .lp_content ul li.lp_item .lp_top img {
+    width: 100%;
+    transition: all 0.4s ease 0s;
+}
+
+.lpty .lp_inner .lp_content ul li.lp_item .lp_bottom {
+    width: 240px;
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    margin-left: -130px;
+    background: #fff;
+    padding: 0 10px;
+}
+
+.lpty .lp_inner .lp_content ul li.lp_item .lp_bottom .title {
+    font-size: 14px;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+.lpty .lp_inner .lp_content ul li.lp_item .lp_bottom .title .tit_name {
+    float: left;
+    font-weight: 600;
+}
+
+.lpty .lp_inner .lp_content ul li.lp_item .lp_bottom .title .tit_price {
+    float: right;
+    color: #C78A49;
+}
+
+.lpty .lp_inner .lp_content ul li.lp_item .lp_bottom .detail {
+    font-size: 12px;
+    line-height: 22px;
+    color: #4D4D4D;
+    /* 文字溢出省略号 */
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.lpty .lp_inner .lp_content ul li.lp_item .lp_bottom .footer {
+    color: #777777;
+    font-size: 12px;
+    line-height: 40px;
+}
