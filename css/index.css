@@ -620,12 +620,12 @@ a {
     background: #faf8f8;
 }
 
-.footer .footer_c .f_top {
+.footer .f_top {
     padding: 50px 0;
     overflow: hidden;
 }
 
-.footer .footer_c .f_top .introduce {
+.footer .f_top .introduce {
     width: 300px;
     font-size: 12px;
     color: #636262;
@@ -633,15 +633,15 @@ a {
     margin-right: 20px;
 }
 
-.footer .footer_c .f_top .introduce p {
+.footer .f_top .introduce p {
     padding-top: 20px;
 }
 
-.footer .footer_c .f_top .introduce:hover p {
+.footer .f_top .introduce:hover p {
     color: #C78A49;
 }
 
-.footer .footer_c .f_top .about {
+.footer .f_top .about {
     float: left;
     margin: 0 45px;
     line-height: 35px;
@@ -649,20 +649,79 @@ a {
     color: #333;
 }
 
-.footer .footer_c .f_top .about dt {
+.footer .f_top .about dt {
     font-size: 16px;
 }
 
-.footer .footer_c .f_top .code {
+.footer .f_top .code {
     float: right;
     width: 120px;
-    margin: 0 20px;
+    margin: 0 0 0 40px;
 } 
 
-.footer .footer_c .f_top .code img {
+.footer .f_top .code img {
     width: 100%;
 }
 
-.footer .footer_c .f_top .code p {
+.footer .f_top .code p {
     text-align: center;
+}
+
+.footer .f_bottom {
+    border-top: 2px solid #E6E6E6;
+}
+
+.footer .f_bottom .f_icon {
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.footer .f_bottom .f_icon .f_left {
+    float: left;
+}
+
+.footer .f_bottom .f_icon .f_left p {
+    line-height: 30px;
+    color: #919191;
+    font-size: 12px;
+}
+
+.footer .f_bottom .f_icon .f_left img {
+    margin: 8px 2px;
+}
+
+.footer .f_bottom .f_icon .f_right {
+    float: right;
+    line-height: 100px;
+}
+
+.footer .f_bottom .f_icon .f_right .icon {
+    display: inline-block;
+    width: 95px;
+    height: 36px;
+    margin: 0 5px;
+}
+
+.footer .f_bottom .f_icon .f_right .one {
+    background: url(../img/img881.png) no-repeat;
+}
+
+.footer .f_bottom .f_icon .f_right .one:hover {
+    background: url(../img/img88.png) no-repeat;
+}
+
+.footer .f_bottom .f_icon .f_right .two {
+    background: url(../img/img891.png) no-repeat;
+}
+
+.footer .f_bottom .f_icon .f_right .two:hover {
+    background: url(../img/img89.png) no-repeat;
+}
+
+.footer .f_bottom .f_icon .f_right .three {
+    background: url(../img/img901.png) no-repeat;
+}
+
+.footer .f_bottom .f_icon .f_right .three:hover {
+    background: url(../img/img90.png) no-repeat;
 }
