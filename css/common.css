@@ -33,6 +33,7 @@ a {
 
 .common_product .content .price {
     color: #d82e2e;
+    line-height: 30px;
 }
 
 .mask {
