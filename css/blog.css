@@ -4,7 +4,7 @@
     overflow: hidden;
 }
 
-.s_content .s_content_inner ul {
+.s_content .s_content_inner ul.blog_left {
     float: left;
 }
 

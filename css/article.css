@@ -1,0 +1,47 @@
+.s_content .s_content_inner .art_content {
+    width: 1120px;
+    padding: 30px 10px;
+    overflow: hidden;
+}
+
+.s_content .s_content_inner .art_content .art_left {
+    float: left;
+    color: #555;
+}
+
+.s_content .s_content_inner .art_content .art_left ul li {
+    width: 814px;
+    height: 124px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    padding: 28px 0 38px;
+}
+
+.s_content .s_content_inner .art_content .art_left ul li .art_pic {
+    float: left;
+    width: 200px;
+    height: 100%;
+    text-align: center;
+}
+
+.s_content .s_content_inner .art_content .art_left ul li .art_pic img {
+    height: 100%;
+    text-align: center;
+}
+
+.s_content .s_content_inner .art_content .art_left ul li .art_text {
+    float: left;
+    width: 600px;
+}
+
+.s_content .s_content_inner .art_content .art_left ul li .art_text h3 {
+    font-weight: 700;
+}
+
+.s_content .s_content_inner .art_content .art_left ul li .art_text p {
+    font-size: 14px;
+}
+
+.s_content .s_content_inner .art_content .art_left ul li .art_textp.time {
+    font-size: 12px;
+}
